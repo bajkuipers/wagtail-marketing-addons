@@ -10,6 +10,9 @@ class UserCannotCreatePermissionHelper(PagePermissionHelper):
     def user_can_create(self, user):
         return False
 
+    def user_can_copy_obj(self, user, obj):
+        return False
+
 
 class PageAdminURLHelper(AbstractPageAdminURLHelper):
     def get_action_url(self, action, *args, **kwargs):
