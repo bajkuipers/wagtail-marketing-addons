@@ -68,6 +68,7 @@ setup(
         'Framework :: Wagtail',
         'Framework :: Wagtail :: 5',
         'Framework :: Wagtail :: 6',
+        'Framework :: Wagtail :: 7',
         'Topic :: Internet :: WWW/HTTP :: Site Management',
     ]
 )
